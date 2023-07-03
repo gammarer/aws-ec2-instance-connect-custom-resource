@@ -1,5 +1,6 @@
 {
-  "name": "aws-ec2-instance-connect-custom-resource",
+  "name": "@yicr/aws-ec2-instance-connect-custom-resource",
+  "description": "AWS EC2 instance connect custom resource",
   "repository": {
     "type": "git",
     "url": "https://github.com/yicr/aws-ec2-instance-connect-custom-resource.git"
@@ -68,8 +69,14 @@
   "keywords": [
     "cdk"
   ],
+  "engines": {
+    "node": ">= 16.0.0"
+  },
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [
