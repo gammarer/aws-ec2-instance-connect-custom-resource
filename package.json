@@ -67,7 +67,12 @@
     "@types/prettier": "2.6.0"
   },
   "keywords": [
-    "cdk"
+    "aws",
+    "aws-cdk",
+    "cdk",
+    "custom-resource",
+    "ec2",
+    "instance-connect"
   ],
   "engines": {
     "node": ">= 16.0.0"

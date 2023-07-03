@@ -7,6 +7,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: '@yicr/aws-ec2-instance-connect-custom-resource',
   description: 'AWS EC2 instance connect custom resource',
+  keywords: ['aws', 'cdk', 'aws-cdk', 'ec2', 'instance-connect', 'custom-resource'],
   projenrcTs: true,
   repositoryUrl: 'https://github.com/yicr/aws-ec2-instance-connect-custom-resource.git',
   releaseToNpm: true,
