@@ -1,4 +1,4 @@
-import { awscdk } from 'projen';
+import { awscdk, javascript } from 'projen';
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'yicr',
   authorAddress: 'yicr@users.noreply.github.com',
@@ -6,11 +6,22 @@ const project = new awscdk.AwsCdkConstructLibrary({
   typescriptVersion: '5.0.4',
   defaultReleaseBranch: 'main',
   name: 'aws-ec2-instance-connect-custom-resource',
+  description: 'AWS EC2 instance connect custom resource',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/yicr/aws-ec2-instance-connect-custom-resource.git',
-  // deps: [],                /* Runtime dependencies of this module. */
-  // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],             /* Build dependencies for this module. */
-  // packageName: undefined,  /* The "name" in package.json. */
+  releaseToNpm: true,
+  npmAccess: javascript.NpmAccess.PUBLIC,
+  minNodeVersion: '16.0.0',
+  workflowNodeVersion: '16.19.1',
+  depsUpgradeOptions: {
+    workflowOptions: {
+      labels: ['auto-approve', 'auto-merge'],
+      schedule: javascript.UpgradeDependenciesSchedule.expressions(['0 17 * * *']),
+    },
+  },
+  autoApproveOptions: {
+    secret: 'GITHUB_TOKEN',
+    allowedUsernames: ['yicr'],
+  },
 });
 project.synth();
