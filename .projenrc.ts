@@ -25,5 +25,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['yicr'],
   },
+  publishToPypi: {
+    distName: 'aws-ec2-instance-connect-custom-resource',
+    module: 'aws_ec2_instance_connect_custom_resource',
+  },
 });
 project.synth();
