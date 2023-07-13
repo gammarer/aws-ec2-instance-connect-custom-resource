@@ -1,5 +1,5 @@
 {
-  "name": "@yicr/aws-ec2-instance-connect-custom-resource",
+  "name": "aws-ec2-instance-connect-custom-resource",
   "description": "AWS EC2 instance connect custom resource",
   "repository": {
     "type": "git",
@@ -76,9 +76,6 @@
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
-  "publishConfig": {
-    "access": "public"
-  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [

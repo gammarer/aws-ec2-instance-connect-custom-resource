@@ -6,7 +6,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   typescriptVersion: '5.0.4',
   jsiiVersion: '~5.0.0',
   defaultReleaseBranch: 'main',
-  name: '@yicr/aws-ec2-instance-connect-custom-resource',
+  name: 'aws-ec2-instance-connect-custom-resource',
   description: 'AWS EC2 instance connect custom resource',
   keywords: ['aws', 'cdk', 'aws-cdk', 'ec2', 'instance-connect', 'custom-resource'],
   projenrcTs: true,
