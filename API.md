@@ -17,27 +17,25 @@ This construct creating resource list.
 ### TypeScript
 
 ```shell
-npm install aws-ec2-instance-connect-custom-resource
-```
-or
-```shell
-yarn add aws-ec2-instance-connect-custom-resource
+npm install @gammarer/aws-ec2-instance-connect-custom-resource
+# or
+yarn add @gammarer/aws-ec2-instance-connect-custom-resource
 ```
 
 ### Python
 
 ```shell
-pip install aws-ec2-instance-connect-custom-resource
+pip install gammarer.aws-ec2-instance-connect-custom-resource
 ```
 
 ## Example
 
 ```shell
-npm install aws-ec2-instance-connect-custom-resource
+npm install @gammarer/aws-ec2-instance-connect-custom-resource
 ```
 
 ```typescript
-import { EC2InstanceConnectCustomResource } from 'aws-ec2-instance-connect-custom-resource';
+import { EC2InstanceConnectCustomResource } from '@gammarer/aws-ec2-instance-connect-custom-resource';
 
 new EC2InstanceConnectCustomResource(stack, 'EC2InstanceConnectCustomResource', {
   subnetId: 'example-subnet-id',
@@ -56,39 +54,39 @@ This project is licensed under the Apache-2.0 License.
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### EC2InstanceConnectCustomResource <a name="EC2InstanceConnectCustomResource" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource"></a>
+### EC2InstanceConnectCustomResource <a name="EC2InstanceConnectCustomResource" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource"></a>
 
-#### Initializers <a name="Initializers" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer"></a>
+#### Initializers <a name="Initializers" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer"></a>
 
 ```typescript
-import { EC2InstanceConnectCustomResource } from 'aws-ec2-instance-connect-custom-resource'
+import { EC2InstanceConnectCustomResource } from '@gammarer/aws-ec2-instance-connect-custom-resource'
 
 new EC2InstanceConnectCustomResource(scope: Construct, id: string, props: EC2InstanceConnectCustomResourceProps)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.props">props</a></code> | <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps">EC2InstanceConnectCustomResourceProps</a></code> | *No description.* |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.props">props</a></code> | <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps">EC2InstanceConnectCustomResourceProps</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-##### `props`<sup>Required</sup> <a name="props" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.props"></a>
+##### `props`<sup>Required</sup> <a name="props" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.Initializer.parameter.props"></a>
 
-- *Type:* <a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps">EC2InstanceConnectCustomResourceProps</a>
+- *Type:* <a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps">EC2InstanceConnectCustomResourceProps</a>
 
 ---
 
@@ -96,13 +94,13 @@ new EC2InstanceConnectCustomResource(scope: Construct, id: string, props: EC2Ins
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseField">getResponseField</a></code> | Returns response data for the AWS SDK call as string. |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseFieldReference">getResponseFieldReference</a></code> | Returns response data for the AWS SDK call. |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseField">getResponseField</a></code> | Returns response data for the AWS SDK call as string. |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseFieldReference">getResponseFieldReference</a></code> | Returns response data for the AWS SDK call. |
 
 ---
 
-##### `toString` <a name="toString" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.toString"></a>
+##### `toString` <a name="toString" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.toString"></a>
 
 ```typescript
 public toString(): string
@@ -110,7 +108,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `getResponseField` <a name="getResponseField" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseField"></a>
+##### `getResponseField` <a name="getResponseField" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseField"></a>
 
 ```typescript
 public getResponseField(dataPath: string): string
@@ -124,7 +122,7 @@ Note that you cannot use this method if `ignoreErrorCodesMatching`
 is configured for any of the SDK calls. This is because in such a case,
 the response data might not exist, and will cause a CloudFormation deploy time error.
 
-###### `dataPath`<sup>Required</sup> <a name="dataPath" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseField.parameter.dataPath"></a>
+###### `dataPath`<sup>Required</sup> <a name="dataPath" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseField.parameter.dataPath"></a>
 
 - *Type:* string
 
@@ -132,7 +130,7 @@ the path to the data.
 
 ---
 
-##### `getResponseFieldReference` <a name="getResponseFieldReference" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseFieldReference"></a>
+##### `getResponseFieldReference` <a name="getResponseFieldReference" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseFieldReference"></a>
 
 ```typescript
 public getResponseFieldReference(dataPath: string): Reference
@@ -149,7 +147,7 @@ Note that you cannot use this method if `ignoreErrorCodesMatching`
 is configured for any of the SDK calls. This is because in such a case,
 the response data might not exist, and will cause a CloudFormation deploy time error.
 
-###### `dataPath`<sup>Required</sup> <a name="dataPath" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseFieldReference.parameter.dataPath"></a>
+###### `dataPath`<sup>Required</sup> <a name="dataPath" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.getResponseFieldReference.parameter.dataPath"></a>
 
 - *Type:* string
 
@@ -161,21 +159,21 @@ the path to the data.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 
 ---
 
-##### ~~`isConstruct`~~ <a name="isConstruct" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.isConstruct"></a>
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.isConstruct"></a>
 
 ```typescript
-import { EC2InstanceConnectCustomResource } from 'aws-ec2-instance-connect-custom-resource'
+import { EC2InstanceConnectCustomResource } from '@gammarer/aws-ec2-instance-connect-custom-resource'
 
 EC2InstanceConnectCustomResource.isConstruct(x: any)
 ```
 
 Checks if `x` is a construct.
 
-###### `x`<sup>Required</sup> <a name="x" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -187,12 +185,12 @@ Any object.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.property.grantPrincipal">grantPrincipal</a></code> | <code>aws-cdk-lib.aws_iam.IPrincipal</code> | The principal to grant permissions to. |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.property.grantPrincipal">grantPrincipal</a></code> | <code>aws-cdk-lib.aws_iam.IPrincipal</code> | The principal to grant permissions to. |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -204,7 +202,7 @@ The tree node.
 
 ---
 
-##### `grantPrincipal`<sup>Required</sup> <a name="grantPrincipal" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.property.grantPrincipal"></a>
+##### `grantPrincipal`<sup>Required</sup> <a name="grantPrincipal" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.property.grantPrincipal"></a>
 
 ```typescript
 public readonly grantPrincipal: IPrincipal;
@@ -219,12 +217,12 @@ The principal to grant permissions to.
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### EC2InstanceConnectCustomResourceProps <a name="EC2InstanceConnectCustomResourceProps" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps"></a>
+### EC2InstanceConnectCustomResourceProps <a name="EC2InstanceConnectCustomResourceProps" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps"></a>
 
-#### Initializer <a name="Initializer" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps.Initializer"></a>
+#### Initializer <a name="Initializer" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps.Initializer"></a>
 
 ```typescript
-import { EC2InstanceConnectCustomResourceProps } from 'aws-ec2-instance-connect-custom-resource'
+import { EC2InstanceConnectCustomResourceProps } from '@gammarer/aws-ec2-instance-connect-custom-resource'
 
 const eC2InstanceConnectCustomResourceProps: EC2InstanceConnectCustomResourceProps = { ... }
 ```
@@ -233,12 +231,12 @@ const eC2InstanceConnectCustomResourceProps: EC2InstanceConnectCustomResourcePro
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps.property.securityGroupIds">securityGroupIds</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps.property.subnetId">subnetId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps.property.securityGroupIds">securityGroupIds</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps.property.subnetId">subnetId</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `securityGroupIds`<sup>Required</sup> <a name="securityGroupIds" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps.property.securityGroupIds"></a>
+##### `securityGroupIds`<sup>Required</sup> <a name="securityGroupIds" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps.property.securityGroupIds"></a>
 
 ```typescript
 public readonly securityGroupIds: string[];
@@ -248,7 +246,7 @@ public readonly securityGroupIds: string[];
 
 ---
 
-##### `subnetId`<sup>Required</sup> <a name="subnetId" id="aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps.property.subnetId"></a>
+##### `subnetId`<sup>Required</sup> <a name="subnetId" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResourceProps.property.subnetId"></a>
 
 ```typescript
 public readonly subnetId: string;

@@ -1,5 +1,5 @@
 {
-  "name": "aws-ec2-instance-connect-custom-resource",
+  "name": "@gammarer/aws-ec2-instance-connect-custom-resource",
   "description": "AWS EC2 instance connect custom resource",
   "repository": {
     "type": "git",
@@ -77,6 +77,9 @@
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [
@@ -124,8 +127,8 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "aws-ec2-instance-connect-custom-resource",
-        "module": "aws_ec2_instance_connect_custom_resource"
+        "distName": "gammarer.aws-ec2-instance-connect-custom-resource",
+        "module": "gammarer.aws_ec2_instance_connect_custom_resource"
       }
     },
     "tsc": {
