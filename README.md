@@ -17,27 +17,25 @@ This construct creating resource list.
 ### TypeScript
 
 ```shell
-npm install aws-ec2-instance-connect-custom-resource
-```
-or
-```shell
-yarn add aws-ec2-instance-connect-custom-resource
+npm install @gammarer/aws-ec2-instance-connect-custom-resource
+# or
+yarn add @gammarer/aws-ec2-instance-connect-custom-resource
 ```
 
 ### Python
 
 ```shell
-pip install aws-ec2-instance-connect-custom-resource 
+pip install gammarer.aws-ec2-instance-connect-custom-resource 
 ```
 
 ## Example
 
 ```shell
-npm install aws-ec2-instance-connect-custom-resource
+npm install @gammarer/aws-ec2-instance-connect-custom-resource
 ```
 
 ```typescript
-import { EC2InstanceConnectCustomResource } from 'aws-ec2-instance-connect-custom-resource';
+import { EC2InstanceConnectCustomResource } from '@gammarer/aws-ec2-instance-connect-custom-resource';
 
 new EC2InstanceConnectCustomResource(stack, 'EC2InstanceConnectCustomResource', {
   subnetId: 'example-subnet-id',
