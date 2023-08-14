@@ -29,5 +29,11 @@ const project = new awscdk.AwsCdkConstructLibrary({
     distName: 'gammarer.aws-ec2-instance-connect-custom-resource',
     module: 'gammarer.aws_ec2_instance_connect_custom_resource',
   },
+  publishToMaven: {
+    mavenGroupId: 'com.gammarer',
+    javaPackage: 'com.gammarer.cdk.aws.ec2_instance_connect_custom_resource',
+    mavenArtifactId: 'aws-ec2-instance-connect-custom-resource',
+    mavenEndpoint: 'https://s01.oss.sonatype.org',
+  },
 });
 project.synth();
