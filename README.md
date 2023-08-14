@@ -28,11 +28,18 @@ yarn add @gammarer/aws-ec2-instance-connect-custom-resource
 pip install gammarer.aws-ec2-instance-connect-custom-resource 
 ```
 
-## Example
+### Java
 
-```shell
-npm install @gammarer/aws-ec2-instance-connect-custom-resource
+Add the following to pom.xml:
+
+```xml
+<dependency>
+  <groupId>com.gammarer</groupId>
+  <artifactId>aws-ec2-instance-connect-custom-resource</artifactId>
+</dependency>
 ```
+
+## Example
 
 ```typescript
 import { EC2InstanceConnectCustomResource } from '@gammarer/aws-ec2-instance-connect-custom-resource';
