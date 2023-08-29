@@ -229,6 +229,25 @@ The principal to grant permissions to.
 
 ---
 
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.property.PROVIDER_FUNCTION_UUID">PROVIDER_FUNCTION_UUID</a></code> | <code>string</code> | The uuid of the custom resource provider singleton lambda function. |
+
+---
+
+##### `PROVIDER_FUNCTION_UUID`<sup>Required</sup> <a name="PROVIDER_FUNCTION_UUID" id="@gammarer/aws-ec2-instance-connect-custom-resource.EC2InstanceConnectCustomResource.property.PROVIDER_FUNCTION_UUID"></a>
+
+```typescript
+public readonly PROVIDER_FUNCTION_UUID: string;
+```
+
+- *Type:* string
+
+The uuid of the custom resource provider singleton lambda function.
+
+---
 
 ## Structs <a name="Structs" id="Structs"></a>
 
