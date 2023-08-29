@@ -11,6 +11,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   keywords: ['aws', 'cdk', 'aws-cdk', 'ec2', 'instance-connect', 'custom-resource'],
   projenrcTs: true,
   repositoryUrl: 'https://github.com/yicr/aws-ec2-instance-connect-custom-resource.git',
+  majorVersion: 1,
   releaseToNpm: true,
   npmAccess: javascript.NpmAccess.PUBLIC,
   minNodeVersion: '18.0.0',
