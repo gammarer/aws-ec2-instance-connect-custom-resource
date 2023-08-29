@@ -70,7 +70,7 @@ describe('CustomResource Testing', () => {
           'Arn',
         ],
       },
-      Runtime: 'nodejs14.x',
+      Runtime: 'nodejs16.x',
       Timeout: 120,
     }));
   });
