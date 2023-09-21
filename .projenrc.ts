@@ -2,6 +2,7 @@ import { awscdk, javascript } from 'projen';
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'yicr',
   authorAddress: 'yicr@users.noreply.github.com',
+  authorOrganization: true,
   cdkVersion: '2.80.0',
   typescriptVersion: '4.9.x',
   jsiiVersion: '~5.0.0',
@@ -10,11 +11,11 @@ const project = new awscdk.AwsCdkConstructLibrary({
   description: 'AWS EC2 instance connect custom resource',
   keywords: ['aws', 'cdk', 'aws-cdk', 'ec2', 'instance-connect', 'custom-resource'],
   projenrcTs: true,
-  repositoryUrl: 'https://github.com/yicr/aws-ec2-instance-connect-custom-resource.git',
+  repositoryUrl: 'https://github.com/gammarer/aws-ec2-instance-connect-custom-resource.git',
   majorVersion: 1,
   releaseToNpm: true,
   npmAccess: javascript.NpmAccess.PUBLIC,
-  minNodeVersion: '18.0.0',
+  minNodeVersion: '16.0.0',
   workflowNodeVersion: '18.17.1',
   depsUpgradeOptions: {
     workflowOptions: {
@@ -35,6 +36,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
     javaPackage: 'com.gammarer.cdk.aws.ec2_instance_connect_custom_resource',
     mavenArtifactId: 'aws-ec2-instance-connect-custom-resource',
     mavenEndpoint: 'https://s01.oss.sonatype.org',
+  },
+  publishToNuget: {
+    dotNetNamespace: 'Gammarer.CDK.AWS',
+    packageId: 'Gammarer.CDK.AWS.Ec2InstanceConnectCustomResource',
   },
 });
 project.synth();
